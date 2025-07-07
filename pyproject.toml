@@ -3,5 +3,15 @@ name = "repo-to-agent"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+authors = [
+    { name = "Leonard Schuler", email = "31131665+LeonardSchuler@users.noreply.github.com" }
+]
 requires-python = ">=3.13"
 dependencies = []
+
+[project.scripts]
+repo-to-agent = "repo_to_agent.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

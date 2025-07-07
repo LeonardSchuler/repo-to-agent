@@ -161,5 +161,9 @@ def index_repo(repo_path: str | Path) -> str:
     return result
 
 
-if __name__ == "__main__":
+def main():
     print(index_repo("."))
+
+
+if __name__ == "__main__":
+    main()

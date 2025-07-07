@@ -8,7 +8,7 @@ from pathlib import Path
 from datetime import datetime
 
 # Directories, file extensions, and specific filenames to skip
-SKIP_DIRS = {"node_modules", ".venv", "__pycache__", ".git"}
+SKIP_DIRS = {"node_modules", ".venv", "__pycache__", ".git", ".pytest_cache", ".ruff_cache"}
 SKIP_EXTS = {
     ".xlsx",
     ".zip",

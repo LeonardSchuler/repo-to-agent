@@ -21,7 +21,7 @@ SKIP_EXTS = {
     ".pyc",
     ".so",
 }
-SKIP_FILES = {".gitignore"}
+SKIP_FILES = {".gitignore", "uv.lock"}
 
 # Global trace ID for this execution
 TRACE_ID = str(uuid.uuid4())
